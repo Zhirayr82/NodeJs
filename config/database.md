@@ -1,0 +1,1 @@
+the database configuration,  Refer the file /config/database.js
