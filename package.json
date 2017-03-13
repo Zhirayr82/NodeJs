@@ -4,11 +4,16 @@
   "description": "1ere_mean-steak",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [
-    "[];"
-  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zhirayr82/NodeJs.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zhirayr82/NodeJs/issues"
+  },
+
   "author": "Markaryan_Zhirayr",
-  "license": "ISC"
 }
