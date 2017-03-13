@@ -1,0 +1,3 @@
+index.html
+
+We have to refer the ‘commentModule’ and ‘commentController’ from the index.html. So the ng-app directive refers the ‘commentModule’ and the ng-controller refers  ‘commentController’ respectively. Next, we have User Name and comment fields and check the ng-model for these fields and its getting mapped to formData.userName and formData.comment respectively. We use the ng-repeat directive to show the list of comments. While clicking on ‘Add’ button will call createComment() function which in turn call the REST (/api/comments/save) service and save the new comments on MongoDB. There is a checkbox which will be shown for each comment. If you click on given checkbox, it will call deleteComment() function which will delete that comment from MongoDB.
